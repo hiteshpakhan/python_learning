@@ -17,3 +17,7 @@ x,y,z = 1,2,3
 print(x)
 print(y)
 print(z)
+
+name = "hitesh pakhan "
+age = 21
+print(name + str(age))
