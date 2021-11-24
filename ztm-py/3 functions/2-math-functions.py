@@ -6,6 +6,8 @@ print(round(3.4))  #it will give the round figure of the number
 # abs()
 print(abs(-20))    #it simply gives you no negitave number
 
+# len()       #it check the length of the 
+print(len("sdjfdbvadbvhbadvj"))     #it will give the output 17
 
 
 
