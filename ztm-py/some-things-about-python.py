@@ -1,5 +1,5 @@
 # 1# expression vs sentence
-# variable-age = 3 / 2
+# variable_age = 3 / 2
 # here the 3/2 is called as the expression 
 # and the entire line of code we called it as the statement 
 
@@ -11,4 +11,13 @@
 
 # 3# formatted string
 name = "hitesh"
-print(f"hi my name is {name}")
+age_string = "21"
+age_int = 21
+print("hi my name is " + name + " and i am " + age_string + " years old")     #this is when you want to mearge strings with strings
+print(f"hi my name is {name} and i am {age_int} years old")             #this is when you want to merge the string with the int or any other two or more than two data type
+
+# 4# variable name
+variable_name = "data" # you can give the underscore in the variable name 
+# variable-name = "data" # you can not add the minus sign in the variable name
+
+# 5# .format
