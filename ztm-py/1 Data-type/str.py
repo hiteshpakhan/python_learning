@@ -21,9 +21,12 @@ print(full_name)
 
 # 3 string indexes:-
 big_string = "ABCDFGA566@GMAIL.COM"
-#             12345678901234567890
-index4 = big_string[4]
-print(index4)       #it will give the output f
+#             012345678901234567890
+
+index_1 = big_string[1]      
+print(index_1)        #it will give string that at the index 1 : b
+index_m1 = big_string[-1]  #it is in the minus index      
+print(index_m1)       #it will give the index string from the last index -1: m 
 
 
 # 4 string indexes [start:stop]
@@ -32,7 +35,13 @@ print(index4_11)        #it will give the output FGA566@
 
 
 # 5 string indexes [start:stop:stepover]
-index4_11_1 = big_string[4:11:1]
-print(index4_11_1)        #it will give the output FGA566@
+index4_11_2 = big_string[4:11:2]
+index4_11_3 = big_string[4:11:3]
+print(index4_11_2)        #it will give the output FA6@
+print(index4_11_3)        #it will give the output F5@
+# as you can see it stepover the strings by 2 and 3
+index_3 = big_string[::-3]
+print(index_3)
+
 
 
