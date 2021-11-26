@@ -49,3 +49,4 @@ index0_len = big_string[0:len(big_string)]      #0-length of the string
 index0_len_4 = big_string[0:len(big_string)-4]      #0-length of the string without 4 last digit
 print(index0_len)
 print(index0_len_4)
+# hufhuhfkvabkbfk
