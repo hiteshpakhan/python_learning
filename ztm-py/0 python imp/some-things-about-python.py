@@ -21,3 +21,9 @@ variable_name = "data" # you can give the underscore in the variable name
 # variable-name = "data" # you can not add the minus sign in the variable name
 
 # 5# .format
+
+# 6# input()
+# imp whatever your inputing it always comes in the string so you better convert it at the start
+birth_year = input("what is your birth year = ")
+age = 2021 - int(birth_year)
+print(f"your born year is {birth_year} and your age is {age}")
