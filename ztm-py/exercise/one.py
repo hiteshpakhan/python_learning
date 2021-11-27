@@ -1,6 +1,7 @@
 # password checker
 
-username = input("user-name : ")
-password = input("pass-word : ")
+username = input("username : ")
+password = input("password : ")
 size = len(password)
-print(f"username is {username} and password length is {size} letters long")
+hidden_password = "*" * size
+print(f"username is {username} and your password {hidden_password} length is {size} letters long")
