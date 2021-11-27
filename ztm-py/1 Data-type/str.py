@@ -50,3 +50,5 @@ index0_len_4 = big_string[0:len(big_string)-4]      #0-length of the string with
 print(index0_len)
 print(index0_len_4)
 # hufhuhfkvabkbfk
+
+
