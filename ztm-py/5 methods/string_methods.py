@@ -35,3 +35,4 @@ print(quote2)
 # op:-
 # To Be Or not to replace
 
+# these upper the some of the all string methods but there are more you can search it online if you want 
