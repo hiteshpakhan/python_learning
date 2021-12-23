@@ -1,7 +1,12 @@
 # methods are similer to the function in its own way but they are owened by something
+# .upper()
+# .capitalize()
+# .lower()
+# .find()
+# .replace()
+
 
 # string methods 
-
 # there are many string methods that we can used specifially used on the string
 # string methods uselly have the . at the front and brackets at the end
 
