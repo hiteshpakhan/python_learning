@@ -4,5 +4,5 @@ print('print what to print')''')    #this is the long string
 
 print(len("hi there"))      #this will tell the number of characters in the string
 
-#Remember input always takes the data in the form of string (str)
-
+# Remember input always takes the data in the form of string (str)
+# len()
