@@ -4,6 +4,8 @@
 # and
 # or
 # not
+# .lower()
+# .count()
 
 
 
