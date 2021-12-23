@@ -20,7 +20,7 @@ print(f"hi my name is {name} and i am {age_int} years old")             #this is
 variable_name = "data" # you can give the underscore in the variable name 
 # variable-name = "data" # you can not add the minus sign in the variable name
 
-# 5# .format
+# 5# .format()
 
 # 6# input()
 # imp whatever your inputing it always comes in the string so you better convert it at the start

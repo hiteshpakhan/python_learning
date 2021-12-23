@@ -1,3 +1,7 @@
+# str , type() ,  ''' ''' ,  
+
+
+
 # 1
 # str represent the string in python
 # we put any str into the single or double cotes "" ''
@@ -21,7 +25,7 @@ print(full_name)
 
 # 3 string indexes:-
 big_string = "ABCDFGA566@GMAIL.COM"
-#             012345678901234567890
+#             01234567890123456789
 
 index_1 = big_string[1]      
 print(index_1)        #it will give string that at the index 1 : b
@@ -50,5 +54,3 @@ index0_len_4 = big_string[0:len(big_string)-4]      #0-length of the string with
 print(index0_len)
 print(index0_len_4)
 # hufhuhfkvabkbfk
-
-

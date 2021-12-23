@@ -1,4 +1,4 @@
-#methods are similer to the function in its own way but they are owened by something
+# methods are similer to the function in its own way but they are owened by something
 
 # string methods 
 

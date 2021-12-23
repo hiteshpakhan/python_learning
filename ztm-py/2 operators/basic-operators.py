@@ -11,4 +11,3 @@ print(5 % 2)    #it gives the reminder  :1
 
 print(int("2"))   #this will give the output in the int form
 print(type(str(10)))    # this will convert the 10 into str
-
