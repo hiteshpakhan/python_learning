@@ -1,4 +1,3 @@
-
 # MATH FUNCTIONS
 # 1 round()
 print(round(3.4))  #it will give the round figure of the number
