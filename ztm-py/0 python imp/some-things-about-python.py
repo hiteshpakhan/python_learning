@@ -27,3 +27,5 @@ variable_name = "data" # you can give the underscore in the variable name
 birth_year = input("what is your birth year = ")
 age = 2021 - int(birth_year)
 print(f"your born year is {birth_year} and your age is {age}")
+
+# 7# type()
