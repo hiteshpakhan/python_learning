@@ -8,6 +8,10 @@
 # in
 # .sort()
 # sorted()
+# reverse()
+# .copy()
+# .range()
+# .join()
 
 
 # list is a data type which is collection of objects that can be of any type
@@ -92,5 +96,16 @@ print(basket3)              #it will reverse the list
 print(basket3[::-1])        #it also the type you can use to reverse the basket
 
 # common list pattern
+
 # range(start : stop)
 print(list(range(1, 100)))  #it used to create the range
+print(list(range(100)))
+
+# .join()
+sentence = " "
+new_sentence = sentence.join(["hi","my","name","is","hitesh"])
+print(new_sentence)
+
+
+# list unpaking
+a,b,c,*d = [1,2,3,4,5,6,7,8,9]
