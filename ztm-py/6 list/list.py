@@ -1,3 +1,13 @@
+# list
+# .append()
+# .insert()
+# .extend()
+# .pop()
+# .remove()
+# .clear()
+# in
+
+
 # list is a data type which is collection of objects that can be of any type
 # in other programming languages you might heard the word arrays , list is just like that
 
@@ -57,5 +67,16 @@ print(basket)             #it will empty the list
 # list methods 2
 
 basket2 = [1,2,3,4,5,6]
-print(basket2.index(4))   #it will give the index of the number you provide inside the brackets
+print(basket2.index(4))   #it will give the index of the number, that you provided inside the brackets
 print(basket2.index(3, 1, 4))   #you can also give start and stope index for looking
+
+print(1 in basket2)
+print(10 in basket2)        #it willcheck if the first value is inside the second value
+
+print(basket2.count(5))            #it will count the given value occourence inside the element 
+
+#list method 3
+
+basket3 = ["c","a","h","b","d","e","f","g"]
+basket3.sort()
+print(basket3)
