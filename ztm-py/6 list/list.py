@@ -12,3 +12,9 @@ amazon_cart = [
     "toys",
     "graps"
 ]
+
+# list_name[start:stop:stepover]
+
+# unlike the strings you can here change the data inside the list by assigning the new values
+amazon_cart[0] = "new value" 
+print(amazon_cart)
