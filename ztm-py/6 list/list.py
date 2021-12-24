@@ -90,3 +90,7 @@ basket3.reverse()
 print(basket3)              #it will reverse the list
 
 print(basket3[::-1])        #it also the type you can use to reverse the basket
+
+# common list pattern
+# range(start : stop)
+print(list(range(1, 100)))  #it used to create the range
