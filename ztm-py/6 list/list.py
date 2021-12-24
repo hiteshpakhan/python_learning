@@ -6,6 +6,8 @@
 # .remove()
 # .clear()
 # in
+# .sort()
+# sorted()
 
 
 # list is a data type which is collection of objects that can be of any type
@@ -79,4 +81,12 @@ print(basket2.count(5))            #it will count the given value occourence ins
 
 basket3 = ["c","a","h","b","d","e","f","g"]
 basket3.sort()
-print(basket3)
+print(basket3)              #it will sort the list
+
+newbasket3 = basket3.copy()
+print(newbasket3)           #it will copy the data into another variable without assigning only address of the variable
+
+basket3.reverse()
+print(basket3)              #it will reverse the list
+
+print(basket3[::-1])        #it also the type you can use to reverse the basket
