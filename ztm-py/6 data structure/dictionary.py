@@ -1,4 +1,4 @@
-# dictionary {dict}
+# dictionary {dict} {}
 # .get()
 # .get(finding key, or default value)
 # dict()
