@@ -1,4 +1,16 @@
 # set {}
+# .add()
+# .copy()
+# .difference()
+# .discard()
+# .difference_update()
+# .intersection()
+# .isdisjoint()
+# .union
+# .issubset()
+# .issuperset()
+
+# set {}
 # set is an unordered collection of an unique elements
 # set does not support item indexing
 
