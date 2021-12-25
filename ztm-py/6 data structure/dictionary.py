@@ -1,4 +1,20 @@
 # dictionary {dict}
+# .get()
+# .get(finding key, or default value)
+# dict()
+# in
+# .keys()
+# .values()
+# .items()
+# .copy()
+# .clear()
+# .pop()
+# .popitem()
+# .update()
+
+
+
+# dictionary {dict}
 # dictonary is a collection of key and value it is just like the object in the javascript and it stores the data inside the querly brackets
 # imp :- dictionary is not unordered it is not like the list that remember the line in which they inserted if the dictionary is very big we will not abele to access the indexing properly
 
