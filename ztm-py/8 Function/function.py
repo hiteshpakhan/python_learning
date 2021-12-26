@@ -8,6 +8,8 @@
 # *args
 # **kwargs
 
+
+
 # function  def
 def new_function():
     print("function data")
