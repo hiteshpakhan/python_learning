@@ -15,12 +15,9 @@ else:
     print("this is else")
 
 
-
-
 # ternary operator 
 c = True
 
 b = "value1" if c == False else "value2"
 print(b)
 # this is second type of if else which can be used like this
-

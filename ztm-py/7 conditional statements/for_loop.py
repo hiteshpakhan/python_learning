@@ -42,5 +42,3 @@ for i,v in enumerate(["a","b","c","d","e","f"]):
 for index1,value1 in enumerate(list(range(100))):
     if(value1==50):
         print(f"index of 50 is : {index1}")
-
-
