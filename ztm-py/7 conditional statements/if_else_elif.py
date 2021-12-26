@@ -14,7 +14,6 @@ elif not a > 0:
 else:
     print("this is else")
 
-
 # ternary operator 
 c = True
 
