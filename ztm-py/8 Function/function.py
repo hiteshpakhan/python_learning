@@ -1,4 +1,14 @@
 # function  def
+# positional parameters
+# argument
+# keyword arguments
+# default parameters
+# return
+# Docstring  help() & __doc__
+# *args
+# **kwargs
+
+# function  def
 def new_function():
     print("function data")
 
@@ -40,8 +50,7 @@ print(test.__doc__)
 # *args
 def func1(*hoo):
     print(hoo)
-    return sum(hoo)
-    # c = sum(args)
-    # print(c)
 
 func1(1,2,3,4,5)
+
+# **kwargs         #learne it next time to much for today
