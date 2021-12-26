@@ -19,3 +19,29 @@ def new_function3(name = "hp", rollno = 21.21):
     print(f"hello {name} your roll no is {rollno}")
 
 new_function3("hitesh")
+
+# return
+def sum(num1, num2):
+    return num1 + num2
+
+print(sum(5,6))
+
+# Docstring  help() & __doc__
+def test():
+    '''
+    this is some info about this function
+    '''
+    print("hi there")
+
+help(test)          #by using help you can find the info that written by the creator of the function
+#there another method to do that
+print(test.__doc__)
+
+# *args
+def func1(*hoo):
+    print(hoo)
+    return sum(hoo)
+    # c = sum(args)
+    # print(c)
+
+func1(1,2,3,4,5)
