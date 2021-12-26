@@ -1,6 +1,6 @@
 even = []
 def higest_even(li):
-    higest = 0
+    higest = 0              #here we have to define the variables inside the function or we can not access it properly.
     for each in li:
         if each % 2 ==0:
             even.append(each)
