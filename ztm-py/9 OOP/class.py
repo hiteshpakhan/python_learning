@@ -61,19 +61,10 @@ class New_class:
 obj_of_new_class = New_class()
 obj_of_new_class.shout()
 
-# @classmethod              #it is a decorator
-
+# @classmethod              #it is a decorator #vimp by using the @classmethod you can directly create the class method
 class Class_method:
-    def __init__(self):
-        pass
-
-    def shout(self):
-        print(f"this is the shout method of the class class_method")
-    
-    @classmethod                            #its nothing that important
+    @classmethod                            #it will help us to use the function without instantiate a class 
     def addition(hjvvvv, num1, num2):       #by defining the @classmethod you can use any other name for the (self) keyword 
         return num1 + num2
 
-obj_class_method = Class_method()
-print(obj_class_method.addition(5,5))
-    
+print(Class_method.addition(65,44))         #but for using the function with instanting the class we have to call it by class_name.addition()  
