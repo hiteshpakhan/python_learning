@@ -60,3 +60,20 @@ class New_class:
 
 obj_of_new_class = New_class()
 obj_of_new_class.shout()
+
+# @classmethod              #it is a decorator
+
+class Class_method:
+    def __init__(self):
+        pass
+
+    def shout(self):
+        print(f"this is the shout method of the class class_method")
+    
+    @classmethod                            #its nothing that important
+    def addition(hjvvvv, num1, num2):       #by defining the @classmethod you can use any other name for the (self) keyword 
+        return num1 + num2
+
+obj_class_method = Class_method()
+print(obj_class_method.addition(5,5))
+    
