@@ -48,9 +48,9 @@ class PlayerCharacter:
 playerCharacter_one = PlayerCharacter("first name", 21)
 playerCharacter_one.run()
 
-
+# default parameters
 class New_class:
-    def __init__(self,name="hitesh",age=21):    #this is the default parameters
+    def __init__(self,name="default",age=21):    #this is the default parameters
         if (age > 18):
             self.student_name = name
             self.student_age = age
