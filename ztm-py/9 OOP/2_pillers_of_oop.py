@@ -22,7 +22,7 @@ class User():               #it is the parent calss
     def sign_in(self):        
         print("hi this is the parent class")
     
-class Wizard(User):         ##it is the child class
+class Wizard(User):         #it is the child class # if you want to give more than one class you just have to give quama and give the other class name
     def __init__(self, one, two):
         self.name = one
         self.power = two
@@ -30,7 +30,7 @@ class Wizard(User):         ##it is the child class
     def attack(self):
         print(f"this is the Wizard class attack and \nthis is the first parameter : {self.name}, this is the second parameter : {self.power}")
 
-class Archer(User):         ##it is the child class
+class Archer(User):         #it is the child class
     pass
 
 obj1 = Wizard("abc","def")
