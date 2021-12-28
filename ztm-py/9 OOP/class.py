@@ -1,14 +1,22 @@
 # class
-class Class_name:
+# creating object
+# class object attribute
+# default parameters
+# @classmethod
+# @staticmethod
+
+
+
+# class
+class Class_name():     #you can also skipp the brackets after the class declaration 
     pass
+
 
 # object
 object_name = Class_name()
-
 # instantiate means creating an object
 # instances means objects
-
-class Class_one:
+class Class_one():
     def __init__(self, name, age):       #constructor method it is autamatically call when we instantiate       #functions inside the class called as method
         self.nameone = name         #it is like the dictionary nameone is attribute and the property is the value of the variable name that you can access like class_obj_name.key_name
         self.ageone = age
@@ -16,8 +24,8 @@ class Class_one:
     def run(self,new):
         print("run",new)
 
-# creating object
 
+# creating object
 obj_one = Class_one("hitesh",21)
 print(obj_one.nameone, obj_one.ageone)
 # op: hitesh 
@@ -33,8 +41,9 @@ obj_two.run("hi this is run function of obj_two")
 Class_one.attach = 10
 print(Class_one.attach)
 
+
 # class object attribute
-class PlayerCharacter:
+class PlayerCharacter():
     a = 50          #this is called class object attribute
     def __init__(self, name, age):
         self.nameone = name
@@ -48,8 +57,9 @@ class PlayerCharacter:
 playerCharacter_one = PlayerCharacter("first name", 21)
 playerCharacter_one.run()
 
+
 # default parameters
-class New_class:
+class New_class():
     def __init__(self,name="default",age=21):    #this is the default parameters
         if (age > 18):
             self.student_name = name
@@ -61,10 +71,21 @@ class New_class:
 obj_of_new_class = New_class()
 obj_of_new_class.shout()
 
+
+
 # @classmethod              #it is a decorator #vimp by using the @classmethod you can directly create the class method
-class Class_method:
+class Class_method():
     @classmethod                            #it will help us to use the function without instantiate a class 
     def addition(hjvvvv, num1, num2):       #by defining the @classmethod you can use any other name for the (self) keyword 
         return num1 + num2
 
 print(Class_method.addition(65,44))         #but for using the function with instanting the class we have to call it by class_name.addition()  
+
+
+
+class Class_method2():
+    @staticmethod                            #it will help us to use the function without instantiate a class also it can use without the self and without any other variable  
+    def addition(num1, num2):       #by defining the @classmethod you can use any other name for the (self) keyword 
+        return num1 + num2
+
+print(Class_method2.addition(6,4))
