@@ -32,5 +32,20 @@ my_list = [1,2,3,4,5,6,7,8,9]
 my_list_2 = ["one","two","three","four","five","six","seven","eight","nine"]
 
 print(list(zip(my_list, my_list_2)))
+#you can also directly convert it into the dictionary
+a = dict(zip(my_list, my_list_2))       
+print(a)
+# you can also zip more than two lists
+my_list_3 = [1,2,3,4,5,6,7,8,9]
+print(list(zip(my_list_2,my_list,my_list_3)))
 
 # * reduce()
+# for reduce we have to import the reduce from the funtools
+from functools import reduce
+mylist4 = [1,2,3,4,5,6,7,8,9]
+def accumulator_function(acc, item):
+    # print(acc, item)
+    print(acc, item)
+    return acc + item           #here the return will become the acc new value until the last ittrable
+
+print(reduce(accumulator_function, mylist4, 5))      #here the 5 is an accumulator acc and item will be an ittrable that comes from the given mylist4
