@@ -1,10 +1,17 @@
+# * pure function 
+# * map()
+# * filter()
+# * zip()
+# * reduce()
+# lambda
+
 # * pure function  
     #pure functions are these which does not interect with the outside world
 
-# map()
+# * map()
 # map has the first parameter as a function and second parameter is ittrable
 
-# * normal method
+# normal method
 def multiply_by_2(li):
     new_list = []
     for item in li:
@@ -46,6 +53,9 @@ mylist4 = [1,2,3,4,5,6,7,8,9]
 def accumulator_function(acc, item):
     # print(acc, item)
     print(acc, item)
-    return acc + item           #here the return will become the acc new value until the last ittrable
+    return acc + item           #here the return will become the acc new value until the last ittrable  #and the last return will be the output
 
 print(reduce(accumulator_function, mylist4, 5))      #here the 5 is an accumulator acc and item will be an ittrable that comes from the given mylist4
+
+
+# lambda
