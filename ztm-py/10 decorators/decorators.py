@@ -11,7 +11,7 @@ def my_decorator(func):
         print("######")
     return wrap_func
 
-@my_decorator
+@my_decorator               # to use the decorators you just have to use the @ and the name of the function
 def hello():
     print("hello")
 
@@ -39,3 +39,21 @@ def fun2(a):
     print(a)
 
 fun2("with function")
+
+
+# why do we need decoreders
+from time import time
+
+def performance(fn):
+    def wrapper(*args, **kawrgs):
+        t1 = time()
+        result = fn(*args, **kawrgs)
+        t2 = time()
+        print(f"took {t1-t2} ms")
+        return result
+    return wrapper
+
+@performance
+def long_time():
+    for i in range(100):
+        i*5
