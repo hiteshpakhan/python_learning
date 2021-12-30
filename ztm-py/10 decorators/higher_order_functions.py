@@ -15,4 +15,4 @@ def greet2():
 # map()
 # filter()
 # reduce()
-# they are the HOF because they allaccept the function 
+# they are the HOF because they allaccept the function
