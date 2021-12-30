@@ -19,3 +19,15 @@ my_list4 = [num2**2 for num2 in range(0, 100) if num2 % 2 == 0]             # im
 print("\n",my_list4)
 my_list5 = [num3 for num3 in range(0, 100) if num3 % 2 == 0]             
 print("\n",my_list5)
+
+# set comprehension
+# set are just like the list just we have to change the brackets from [] to {}
+
+# dictionary comprehensions
+simple_dict = {
+    "a":1,
+    "b":2
+}
+my_dict = {k:v**3 for k, v in simple_dict.items()}
+print("\n",my_dict)
+print(simple_dict.items())
