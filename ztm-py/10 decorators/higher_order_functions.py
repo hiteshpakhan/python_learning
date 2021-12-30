@@ -10,3 +10,9 @@ def greet2():
     return func2
 
 # means a higher ordered function can accept or return another function 
+
+# example of higher order functions 
+# map()
+# filter()
+# reduce()
+# they are the HOF because they allaccept the function 
