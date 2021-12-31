@@ -1,4 +1,13 @@
 # 1# expression vs sentence
+# 3# formatted string
+# 4# variable name
+# 5# .format()
+# 6# input()
+# 7# type()
+
+
+
+# 1# expression vs sentence
 # variable_age = 3 / 2
 # here the 3/2 is called as the expression 
 # and the entire line of code we called it as the statement 

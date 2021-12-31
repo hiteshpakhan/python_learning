@@ -1,4 +1,13 @@
 # dunder method      dir
+# __str__()
+# __len__()
+# __del__()
+# __call__()
+# __getitem__()
+
+
+
+# dunder method      dir
 
 # __str__()
 class Toy():

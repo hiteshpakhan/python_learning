@@ -1,8 +1,13 @@
-# str , type() ,  ''' ''' ,  
+# 1 str , type() ,  ''' '''
+# 2 string concatination
+# 3 string indexes:-
+# 4 string indexes [start:stop]
+# 5 string indexes [start:stop:stepover]
+# 6 string indexes 
 
 
 
-# 1
+# 1 str , type() ,  ''' '''
 # str represent the string in python
 # we put any str into the single or double cotes "" ''
 # you can use _ to declare the str name but you can never use the (-) minus sign in between the name of the variable str  
