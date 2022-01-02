@@ -50,9 +50,15 @@ help(test)          #by using help you can find the info that written by the cre
 print(test.__doc__)
 
 # *args
+# these can take as many as combination of single values in a tuple
 def func1(*hoo):
     print(hoo)
 
 func1(1,2,3,4,5)
 
-# **kwargs         #learne it next time to much for today
+# **kwargs         
+# it takes the dictionary like values those have the keys and value
+def f1(**haa):
+    print(haa)
+
+f1(hi = 3, buy = 4)
