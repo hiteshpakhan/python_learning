@@ -6,12 +6,12 @@
 try:
     age = int(input("what is your age"))
     print("1 yor age is : ",age)
-except:
+except:                             # if the try gives an error then the the except block will run
     print("please enter only number")
 
 # if you want to continussly take input until the user give the write input 
 
-while True:    
+while True:
     try:
         age2 = int(input("what is your age2 : "))
         print("2 yor age2 is : ",age2)
@@ -28,6 +28,6 @@ while True:
         print("3 yor age3 is : ",age3)
     except:
         print(" -- ! please enter only number --")
-    else:
+    else:                               # when the try block execute then the else block will execute 
         print("thanks")
-        break
+        break                           # these breack will be breake the while statement
