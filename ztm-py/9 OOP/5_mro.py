@@ -1,3 +1,5 @@
+# .mro()
+
 class A():
     num = 10
 

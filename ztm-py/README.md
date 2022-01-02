@@ -63,21 +63,7 @@
 
 * 6 data structure
 
-* dictionary {dict} {}
-        # .get()
-        # .get(finding key, or default value)
-        # dict()
-        # in
-        # .keys()
-        # .values()
-        # .items()
-        # .copy()
-        # .clear()
-        # .pop()
-        # .popitem()
-        # .update()
-
-* list []
+        ** list []
 
         # .append()
         # .insert()
@@ -93,7 +79,22 @@
         # .range()
         # .join()
 
-* set {}
+        ** dictionary {dict} {}
+        
+        # .get()
+        # .get(finding key, or default value)
+        # dict()
+        # in
+        # .keys()
+        # .values()
+        # .items()
+        # .copy()
+        # .clear()
+        # .pop()
+        # .popitem()
+        # .update()
+
+        ** set {}
 
         # .add()
         # .copy()
@@ -105,4 +106,83 @@
         # .union
         # .issubset()
         # .issuperset()
+
+        ** tuple ()
+
+        # .count()
+        # .index()
+
+* 7 Conditional statements
+
+        # for
+        # in
+        # range()
+        # enumerate()
+
+        # if
+        # elif
+        # else
+        # and 
+        # or
+        # not
+        # ternary operator 
+
+        # while 
+        # else
+        # break
+        # continue
+        # pass
+
+* 8 Function
+
+        # function  def
+        # positional parameters
+        # argument
+        # keyword arguments
+        # default parameters
+        # return
+        # Docstring  help() & __doc__
+        # *args
+        # **kwargs
+
+* 9 OOP
+
+        # class
+        # creating object
+        # class object attribute
+        # default parameters
+        # @classmethod
+        # @staticmethod
+
+        # 1 Encapsulation
+        # 2 Abstraction
+        # 3  Inheritance
+            # isinstance
+        # 4 polymorphism
+
+        # super
+
+        # dunder method      dir
+        # __str__()
+        # __len__()
+        # __del__()
+        # __call__()
+        # __getitem__()
+
+        # .mro()
+
+        # pure function 
+        # map()
+        # filter()
+        # zip()
+        # reduce()
+        # lambda
+
+        # list comprehension
+
+* 10 Decorators
+
+        # @Decorator_name
+
+        # higher order functions
 

@@ -1,7 +1,7 @@
-# 1   str()
+# 1 str()
 # 2 int()
 
-# 1   str()
+# 1 str()
 print(type(str(100)))   #it will give the type str because we convert it into the str
 
 # 2 int()
