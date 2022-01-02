@@ -13,4 +13,7 @@
 
 * day 4
 
-        
+        # random
+        # .randint()
+
+* day 5
