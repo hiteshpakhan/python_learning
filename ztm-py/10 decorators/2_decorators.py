@@ -9,7 +9,7 @@ def my_decorator(func):
         print("*****")
         func()                  #here the func() will be hello()
         print("######")
-    return wrap_func
+    return wrap_func        # it is compulsery that the decorator must return another function
 
 @my_decorator               # to use the decorators you just have to use the @ and the name of the function
 def hello():
