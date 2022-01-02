@@ -1,3 +1,4 @@
+# except can also used for act on a specific errors
 while True:
     try:
         age = int(input("what is your age : "))
@@ -7,5 +8,13 @@ while True:
     except ZeroDivisionError:
         print("warning : give another value can not divided by zero")
     else:
-        print("thank you")
         break
+
+# 2nd example
+def sum(num1, num2):
+    try:
+        return num1 + num2
+    except:
+        print("something is wrong")
+
+print(sum("3", 5))        
