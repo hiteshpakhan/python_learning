@@ -1,8 +1,7 @@
-# age = int(input("what is your name"))   #but if here i give the input in string it will thorugh an error
-# print(age)
-
+# try and except
+        # age = int(input("what is your name"))   #but if here i give the input in string it will thorugh an error
+        # print(age)
 # still if you want to run the upper programe you can do it by error handling try except
-
 try:
     age = int(input("what is your age"))
     print("1 yor age is : ",age)
