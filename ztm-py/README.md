@@ -190,4 +190,8 @@
 
 * 11 Error Handling
 
-        
+        # try
+        # except
+        # else
+        # except 
+        # as

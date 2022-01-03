@@ -1,3 +1,9 @@
+# try
+# except
+# else
+
+
+
 # try and except
         # age = int(input("what is your name"))   #but if here i give the input in string it will thorugh an error
         # print(age)
@@ -21,6 +27,7 @@ while True:
 # or
 # you can use this method also
 
+# else
 while True:    
     try:
         age3 = int(input("what is your age3 : "))
