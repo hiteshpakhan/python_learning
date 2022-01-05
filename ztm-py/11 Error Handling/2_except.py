@@ -25,3 +25,15 @@ def sum(num1, num2):
         print("the error in the variable has the message for you =======>" , err)           # it will also show error message if we assign it to a variable and print the variable
 
 print(sum("3", 5))
+
+
+# you can also add two or more errors in the same except block
+
+while True:
+    try:
+        age2 = int(input("what is your age : "))
+        10/age2
+    except (ValueError, ZeroDivisionError):              # you can give the name of the error and type the specific warning
+        print("warning : please enter a number or give another value can not divided by zero")
+    else:
+        break

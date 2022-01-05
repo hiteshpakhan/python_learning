@@ -26,9 +26,9 @@ while True:
 
 while True:
     try:
-        agevar = input("enter your age here : ")
+        agevar = int(input("enter your age here : "))
         print(agevar)
-        raise ValueError("hee this is the my own created value error")
+        raise ValueError("hee this is the my own created value error")      # by this you can through your own errors
     except ValueError as cat:
         print(f"hee pal you got som value error here =======> {cat}")
     else:
