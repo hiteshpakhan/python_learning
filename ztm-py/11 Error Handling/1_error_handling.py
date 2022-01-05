@@ -37,3 +37,17 @@ while True:
     else:                               # when the try block execute then the else block will execute 
         print("thanks")
         break                           # these breack will be breake the while statement
+
+
+# or
+# you can also this method
+
+# continue
+while True:    
+    try:
+        age3 = int(input("what is your age3 : "))
+        print("3 yor age3 is : ",age3)
+        break
+    except:
+        print(" -- ! please enter only number --")
+        continue
