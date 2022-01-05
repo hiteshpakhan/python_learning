@@ -196,6 +196,7 @@
         # except 
         # as
 
-* 12 Generators
+* 12 Generators         #skiped
 
-        
+* 13 Modules in python
+

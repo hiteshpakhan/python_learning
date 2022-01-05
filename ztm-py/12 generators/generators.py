@@ -6,4 +6,8 @@
 # yield : yield pauses the function and comes back to it when we do next to it
 
 
-# we will study it later 
+
+# when we use something like list ittrating it create a gient list at once responsible for using big amount of memory
+# but on the other hand the yield ittrating happens one by one and not use the big amount of memory data
+
+# so the use of yield is really benificial
