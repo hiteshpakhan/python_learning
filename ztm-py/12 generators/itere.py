@@ -1,4 +1,5 @@
 # iter
+# next
 
 iterator_variable_name = iter([1,2,3,4,5])
 print(next(iterator_variable_name))   #1
