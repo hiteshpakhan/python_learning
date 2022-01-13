@@ -10,6 +10,3 @@ print(next(iterator_variable_name))   #3
 print(next(iterator_variable_name))   #4
 print(next(iterator_variable_name))   #5
 print(next(iterator_variable_name))   #error
-
-
-
