@@ -14,3 +14,10 @@
 
 
 # creating a generator
+def gen1(num):
+    for i in range(num):
+        yield i
+        print("this is the after yield ",i)
+
+for item in gen1(5):
+    print(item)
