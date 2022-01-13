@@ -1,0 +1,1 @@
+print("this is the file that is inside the folder1")
