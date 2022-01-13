@@ -6,4 +6,4 @@
 print("hi this is the first module file")
 
 def mul(num1, num2):
-    return num1*num2
+    return num1 * num2
