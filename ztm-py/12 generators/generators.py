@@ -11,3 +11,6 @@
 # but on the other hand the yield ittrating happens one by one and not use the big amount of memory data
 
 # so the use of yield is really benificial working with
+
+
+# creating a generator
