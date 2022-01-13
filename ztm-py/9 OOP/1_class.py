@@ -27,7 +27,7 @@ class Class_one():
 
 # creating object
 obj_one = Class_one("hitesh",21)
-print(obj_one.nameone, obj_one.ageone)
+print("name = ",obj_one.nameone, "age = ",obj_one.ageone)
 # op: hitesh 
 obj_one.run("hi this is run function of obj_one")
 # op: run
