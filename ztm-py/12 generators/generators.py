@@ -23,21 +23,3 @@ for item in gen1(5):
     print(item)
 
 
-
-
-# range by the generators
-
-class MyGen():
-    def __init__(self, first, last):
-        self.first = first
-        self.last = last
-
-    def __iter__(self):         # __iter__ just like the iter() function  
-        return self
-
-    # def __next__(self):
-    #     if
-
-gen = MyGen(0, 100)
-for i in gen:
-    print(i)
