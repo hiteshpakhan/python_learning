@@ -4,3 +4,6 @@
 # now we will export this file to the module2 file
 
 print("hi this is the first module file")
+
+def mul(num1, num2):
+    return num1*num2
