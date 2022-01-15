@@ -5,12 +5,13 @@
 # .pop()
 # .remove()
 # .clear()
+# .index()
 # in
 # .sort()
 # sorted()
 # reverse()
 # .copy()
-# .range()
+# range()
 # .join()
 
 
@@ -48,13 +49,13 @@ print(len(matrixone))
 
 # methods with list
 basket = [1,2,3,4,5]
-basket.append(100)
+basket.append(100)      #it will store the 100 at the last position 
 print(basket)
 
-basket.insert(3, 100)
+basket.insert(3, 100)   # it will store 100 at 3rd index
 print(basket)
 
-basket.extend([3, 1, 5])
+basket.extend([3, 1, 5])    #it will join th elist to the right side of the main list
 print(basket)
 
 basket.pop()

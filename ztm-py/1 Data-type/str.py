@@ -1,4 +1,4 @@
-# 1 str , type() ,  ''' '''
+# 1 str , type() ,  ''' long comment '''
 # 2 string concatination
 # 3 string indexes:-
 # 4 string indexes [start:stop]

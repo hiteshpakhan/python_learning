@@ -1,3 +1,4 @@
+# we are dusscing the build in 
 print("it is used to print anything in the output section")    # print used to print anything in the output 
 
 print(type("any data you can put in there"))    # type() tales us what type of the data we have
