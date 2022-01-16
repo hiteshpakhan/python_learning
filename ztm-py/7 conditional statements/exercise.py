@@ -1,4 +1,4 @@
-# to find the duplicates and make the saperates list one with the duplicates and one without duplicates
+# to find the duplicates and make the saperates list, one with the duplicates and one without duplicates
 # some_list = ["a","b","c","b","d","n","m","m"]
 
 # duplicates = []
