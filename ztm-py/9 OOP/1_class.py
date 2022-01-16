@@ -56,6 +56,7 @@ class PlayerCharacter():
 
 playerCharacter_one = PlayerCharacter("first name", 21)
 playerCharacter_one.run()
+print(playerCharacter_one.a)    #output:- 50
 
 
 # default parameters
