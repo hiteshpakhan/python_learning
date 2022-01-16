@@ -24,3 +24,12 @@ with open("test.txt", mode="a") as myfile:
 with open("test.txt", mode="w") as myfile3:
     mytext3 = myfile3.write(" oppps accedently delete all the content of the data ")
     # also when we are using the w mode if the file is not present it will create the file automatically with that name
+
+
+
+# how to access file into another folder
+with open("folder1/test2.txt", mode="r") as myfile4:
+    mytext4 = myfile4.read()
+    print(mytext4)
+    # it will go to the folder pick the test2.txt and it will read it for you 
+    # and remember that if you want to goi back you can use ..
