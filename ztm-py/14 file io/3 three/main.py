@@ -23,3 +23,4 @@ with open("test.txt", mode="a") as myfile:
 # mode="w"      #it will only write the file and replace with all the content of the file
 with open("test.txt", mode="w") as myfile3:
     mytext3 = myfile3.write(" oppps accedently delete all the content of the data ")
+    # also when we are using the w mode if the file is not present it will create the file automatically with that name
