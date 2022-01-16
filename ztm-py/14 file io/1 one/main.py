@@ -1,4 +1,3 @@
-
 # file i/o
 # means we will take some input from outside our python file and give something as output outside our python file
 
