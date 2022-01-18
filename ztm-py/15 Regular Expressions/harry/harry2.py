@@ -2,7 +2,7 @@ import re
 para = '''@kjbkb. 0 Groups. kjbkb. 
 2Recordings0Songs0Favorites0Followers0Following. 
 RecordingsSmuleGuitar!Magic PianoAutoRap. 
-kjbkb has no recordings'''
+kjbkb has no recordings.'''
 
 # .
 patt = re.compile(r".")     #by using . you are saying you want any characters
@@ -34,8 +34,24 @@ for k in obj_store3:
 
 
 # $ end with
-print("****")
-patt4 = re.compile(r"ings$")
+patt4 = re.compile(r"ings\.$")      #if your string has a . you can use the \
 obj_store4 = patt4.finditer(para)
 for l in obj_store4:
     print(l)        #output:- <re.Match object; span=(138, 142), match='ings'>
+
+
+# *
+print("****")
+patt5 = re.compile(r"in*")      #here you are saying that you want g and if s comes after that zore or more than zero times
+obj_stroe5 = patt5.finditer(para)
+for m in obj_stroe5:
+    print(m)
+    # output:-
+# <re.Match object; span=(33, 35), match='in'>
+# <re.Match object; span=(49, 50), match='i'>
+# <re.Match object; span=(70, 72), match='in'>
+# <re.Match object; span=(82, 84), match='in'>
+# <re.Match object; span=(93, 94), match='i'>
+# <re.Match object; span=(101, 102), match='i'>
+# <re.Match object; span=(105, 106), match='i'>
+# <re.Match object; span=(138, 140), match='in'>
