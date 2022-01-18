@@ -18,4 +18,9 @@ for i in a:
 # <re.Match object; span=(27, 36), match='Recording'>
 # <re.Match object; span=(76, 85), match='Recording'> 
 
-# as you can see that there an object that holds the data in group
+# now you have an idea about the indexes of the strings that your lookingh for 
+# for example
+print(mystr[27: 36])        #output:- Recording
+print(mystr[76: 85])        #output:- Recording
+
+# span : is the index that your given string is found
