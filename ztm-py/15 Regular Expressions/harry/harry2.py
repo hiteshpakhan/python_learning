@@ -25,7 +25,7 @@ for j in obj_store2:
 # <re.Match object; span=(137, 141), match='ding'>
 
 
-# ^ starts with 
+# ^ starts with
 patt3 = re.compile(r"^@k")          #it will check if the hole para start with given string then only it will return the obj
 obj_store3 = patt3.finditer(para)
 for k in obj_store3:
