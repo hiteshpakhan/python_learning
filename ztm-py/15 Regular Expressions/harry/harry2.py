@@ -2,7 +2,7 @@ import re
 para = '''@kjbkb. 0 Groups. kjbkbkjbkb. 
 2Recordings0Songs0Favorites0Followers0Following. 
 RecordingsSmuleGuitar!Maginnnnnc PianoAutoRap. 
-kjbkb has no recordings.'''
+kjbkb has kjvvhbh no recordings.'''
 
 # . any character
 patt = re.compile(r".")     #by using . you are saying you want any characters
@@ -92,8 +92,7 @@ for p in obj_store8:
 
 
 # | either or
-print("****")
-patt9 = re.compile(r"Re|kj")
+patt9 = re.compile(r"Re|kj")    #it will give you all the strings that contain kj or that contain the Re
 obj_store9 = patt9.finditer(para)
 for q in obj_store9:
     print(q)
@@ -104,3 +103,30 @@ for q in obj_store9:
 # <re.Match object; span=(32, 34), match='Re'>
 # <re.Match object; span=(81, 83), match='Re'>
 # <re.Match object; span=(129, 131), match='kj'>
+
+
+
+# \A returns the match if the given char is the begining of the string
+patt10 = re.compile(r"\A@kj")
+obj_store10 = patt10.finditer(para)
+for r in obj_store10:
+    print(r)
+# output:-
+# <re.Match object; span=(0, 3), match='@kj'>
+
+
+
+# \b returns the match if the given string is at the begining of the any words in the paragraph 
+print("****")
+patt11 = re.compile(r"\bkj")
+obj_store11 = patt11.finditer(para)
+for s in obj_store11:
+    print(s)
+# output:-
+# <re.Match object; span=(1, 3), match='kj'>
+# <re.Match object; span=(18, 20), match='kj'>
+# <re.Match object; span=(129, 131), match='kj'>
+# <re.Match object; span=(139, 141), match='kj'>
+
+
+# similery if we put the \b at the end of the given string it will find the words that ending with the given string
