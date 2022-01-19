@@ -130,3 +130,12 @@ for s in obj_store11:
 
 
 # similery if we put the \b at the end of the given string it will find the words that ending with the given string
+
+# \B
+# \d
+# \D
+# \s
+# \S
+# \w
+# \W
+# \Z 
