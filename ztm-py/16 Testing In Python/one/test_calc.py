@@ -6,6 +6,11 @@ class Testcalc(unittest.TestCase):
         result = calc.function1(5, 6)
         self.assertEqual(result, 5)
 
+    def test_calc2(self):
+        self.assertEqual(calc.function1(7, 8), 7)
+        self.assertEqual(calc.function1(-3, 2), -1)
+        self.assertEqual(calc.function1(0, 8), 7)   #this will fail
+
 if __name__ == "__main__":
     unittest.main() #unittest.main() is the special call by which the unittest can be execute 
 # or
