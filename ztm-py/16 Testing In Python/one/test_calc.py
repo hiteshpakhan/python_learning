@@ -5,11 +5,12 @@ class Testcalc(unittest.TestCase):
     def test_calc(self):
         result = calc.function1(5, 6)
         self.assertEqual(result, 5)
-# to run this file you have to go to the terminal on this folder and run the following command
-# python -m unittest test_calc.py
 
 if __name__ == "__main__":
     unittest.main() #unittest.main() is the special call by which the unittest can be execute 
+# or
+# to run this file you have to go to the terminal on this folder and run the following command
+# python -m unittest test_calc.py
 
 
 
