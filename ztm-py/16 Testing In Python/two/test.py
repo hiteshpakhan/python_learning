@@ -7,5 +7,9 @@ class TestMain(unittest.TestCase):
         result = main.do_stuff(test_param)
         self.assertEqual(result, 15)    #it will check if the result is equal to the excepted value
 
+    def test_do_stuff2(self):
+        test_param = "10"
+        result = main.do_stuff(test_param)
+        self.assertEqual(result, )
 
 unittest.main()
