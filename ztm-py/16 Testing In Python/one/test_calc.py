@@ -11,6 +11,10 @@ class Testcalc(unittest.TestCase):
         self.assertEqual(calc.function1(-3, 2), -1)
         self.assertEqual(calc.function1(0, 8), 7)   #this will fail
 
+        self.assertRaises(ValueError, calc.divide, 10, 0)   #here we are passsing each argument seprately
+
+        
+
 if __name__ == "__main__":
     unittest.main() #unittest.main() is the special call by which the unittest can be execute 
 # or
