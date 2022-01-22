@@ -16,4 +16,12 @@ class TestMain(unittest.TestCase):
         # also you can use the following
         self.assertIsInstance(result2, ValueError)
 
-unittest.main()
+
+if __name__ == "__main__":
+    unittest.main()
+
+# or you can also run this file in terminal by folling
+# python -m unittest
+
+# and if you want to test but get more info about your test cases you can use the following command in terminal
+# python -m unittest -v         #here v stands for verbose
