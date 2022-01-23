@@ -30,16 +30,22 @@ print(img1.mode)
 
 
 # .filter()
-# ImageFilter.
-# BLUR
+# ImageFilter.BLUR
 # .save()
 img_filtered = img1.filter(ImageFilter.BLUR)
 img_filtered.save("blurcharmander.png", "png")  #you can give any type of extention but to give .jpg you have to actiualy give .jpeg 
 
 
-# SMOOTH
+# ImageFilter.SMOOTH
 img_smooth = img1.filter(ImageFilter.SMOOTH)
 img_smooth.save("smoothcharmender.jpeg", "jpeg")
 
 
-# 
+# ImageFilter.SHARPEN
+img_sharpen = img1.filter(ImageFilter.SHARPEN)
+img_sharpen.save("sharpencharmender.png")
+
+
+# .convert()
+img_convert = img1.convert("L")
+img_convert.save("converted.png")
