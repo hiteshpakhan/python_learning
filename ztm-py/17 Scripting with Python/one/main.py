@@ -66,6 +66,6 @@ img1.resize((100, 100)).show()
 
 
 # crop()
-box = (25, 25, 50, 50)
+box = (25, 25, 50, 50)  # (left, upper, right, lower)
 region = img1.crop(box)
-region.save("resize.png", "png")
+region.save("resize.png", "png")    
