@@ -69,3 +69,16 @@ img1.resize((100, 100)).show()
 box = (25, 25, 50, 50)  # (left, upper, right, lower)
 region = img1.crop(box)
 region.save("resize.png", "png")    
+
+
+
+#  to compres an image
+img3 = Image.open("./Pokedex/astro.jpg")
+img3.resize((1920, 1080)).save("img3.png", "png")
+# it will change the pixel size and reduce the size of the image
+
+
+
+# thumbnail
+img3.thumbnail((400, 400))
+img3.save("thumbnail.jpeg")
