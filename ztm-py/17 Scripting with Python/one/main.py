@@ -34,19 +34,27 @@ print(img1.mode)
 # ImageFilter.BLUR
 # .save()
 img_filtered = img1.filter(ImageFilter.BLUR)
-img_filtered.save("blurcharmander.png", "png")  #you can give any type of extention but to give .jpg you have to actiualy give .jpeg 
+# img_filtered.save("blurcharmander.png", "png")  #you can give any type of extention but to give .jpg you have to actiualy give .jpeg 
 
 
 # ImageFilter.SMOOTH
 img_smooth = img1.filter(ImageFilter.SMOOTH)
-img_smooth.save("smoothcharmender.jpeg", "jpeg")
+# img_smooth.save("smoothcharmender.jpeg", "jpeg")
 
 
 # ImageFilter.SHARPEN
 img_sharpen = img1.filter(ImageFilter.SHARPEN)
-img_sharpen.save("sharpencharmender.png")
+# img_sharpen.save("sharpencharmender.png")
 
 
 # .convert()
 img_convert = img1.convert("1")         #there are more like : "1"
-img_convert.save("converted.png")
+# img_convert.save("converted.png")
+
+
+# .show()
+img1.show()     #it can show you the image you want to show
+
+
+# .rotate()
+img1.rotate(90).show()
