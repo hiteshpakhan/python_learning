@@ -1,4 +1,5 @@
 from PIL import Image, ImageFilter
+# PIL is the Python Imaging Library
 # to run the file in which you import the Image module you have to go terminal to that specific location file and then run the python file
 # and the ImageFilter that help to filter the image
 
@@ -47,5 +48,5 @@ img_sharpen.save("sharpencharmender.png")
 
 
 # .convert()
-img_convert = img1.convert("L")
+img_convert = img1.convert("1")         #there are more like : "1"
 img_convert.save("converted.png")
