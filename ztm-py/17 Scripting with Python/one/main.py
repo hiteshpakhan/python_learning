@@ -58,3 +58,14 @@ img1.show()     #it can show you the image you want to show
 
 # .rotate()
 img1.rotate(90).show()
+
+
+# .resize()
+# resizealways take the size in the ()
+img1.resize((100, 100)).show()
+
+
+# crop()
+box = (25, 25, 50, 50)
+region = img1.crop(box)
+region.save("resize.png", "png")
