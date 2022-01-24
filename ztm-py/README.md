@@ -200,3 +200,26 @@
 
 * 13 Modules in python
 
+        * one
+           import
+        
+        * two
+           __name__ == "__main__"
+
+        * three
+           import random
+           dir()
+           .random()
+           .randint()
+           .choice()
+           .shuffle()
+           as
+           import sys
+           from random import randint
+           import pyjokes
+           from collections import Counter, defaultdict, OrderedDict
+           import datetime
+           datetime.time()
+           datetime.today()
+           from array import array
+           array()
