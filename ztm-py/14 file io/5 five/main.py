@@ -14,4 +14,4 @@
 
 
 # to use this we first install the package from pypi.org
-# pip3 install translate
+# pip install translate

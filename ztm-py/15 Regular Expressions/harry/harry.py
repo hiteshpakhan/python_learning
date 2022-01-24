@@ -7,6 +7,7 @@ RecordingsSmuleGuitar!Magic PianoAutoRap.
 kjbkb has no recordings.'''
 
 
+# re.compile()
 pattern1 = re.compile(r"Recording")
 # .finditer()
 a = pattern1.finditer(mystr)

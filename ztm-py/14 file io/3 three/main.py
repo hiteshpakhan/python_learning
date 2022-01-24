@@ -2,7 +2,7 @@
 # but if we want to make changes or write into the file we simply make the mode="w / r / r+"
 
 # mode="r+"
-# write 
+# .write() 
 with open("test.txt", mode="r+") as my_file:        #r+means you can read and write into the file at the same time
     mytext = my_file.write("-hee-")
     print(mytext)

@@ -1,3 +1,12 @@
+# open()
+# .read()
+# .seek()
+# .readline()
+# .readlines()
+# .close()
+
+
+
 # file i/o
 # means we will take some input from outside our python file and give something as output outside our python file
 
@@ -28,6 +37,7 @@ var_file.seek(0)
 print(var_file.readlines(),"all lines")     #it will give you all the lines inside the list
 
 
+# .close()
 # now that you open the file its time to close it 
 # and to close the file you use the .close()
 var_file.close()

@@ -201,25 +201,108 @@
 * 13 Modules in python
 
         * one
-           import
+           # import
         
         * two
-           __name__ == "__main__"
+           # __name__ == "__main__"
 
         * three
-           import random
-           dir()
-           .random()
-           .randint()
-           .choice()
-           .shuffle()
-           as
-           import sys
-           from random import randint
-           import pyjokes
-           from collections import Counter, defaultdict, OrderedDict
-           import datetime
-           datetime.time()
-           datetime.today()
-           from array import array
-           array()
+           # import random
+           # dir()
+           # .random()
+           # .randint()
+           # .choice()
+           # .shuffle()
+           # as
+           # import sys
+
+        * four
+           # from random import randint
+
+        * six
+           # import pyjokes
+
+        * seven
+           # from collections import Counter, defaultdict, OrderedDict
+           # import datetime
+           # datetime.time()
+           # datetime.today()
+           # from array import array
+           # array()
+
+* 14 file input/output
+
+        * one
+           # open()
+           # .read()
+           # .seek()
+           # .readline()
+           # .readlines()
+           # .close()
+
+        * two
+           # with 
+           # as
+
+        * three
+           # mode="r+"
+           # .write()
+           # mode="a"
+           # mode="w"
+
+        * five
+           # from translate import Translator
+           # pip install
+
+* 15 Regular expression
+        
+        * harry
+           # import re
+           # re.compile()
+           # .finditer()
+           # .
+           # ^ 
+           # $ 
+           # *
+           # +
+           # {}
+           # ()
+           # |
+           # \A 
+           # \b 
+
+        * ztm
+           # import re
+           # re.search()
+           # .span()
+           # .start()
+           # .end()
+           # .group()
+           # re.compile()
+           # .findall()
+           # .fullmatch()
+           # .match()
+
+* 16 Testing in python
+
+        * coreyms
+           # import unittest
+           # import calc
+           # unittest.TestCase
+           # .assertEqual()
+           # .assertRaises()
+           # __name__ == "__main__"
+           # unittest.main() 
+
+        * ztm
+           # import unittest
+           # import main
+           # unittest.TestCase
+           # .assertEqual
+           # .assertIsInstance
+           # unittest.main()
+
+           # from re import L
+           # from unittest.main import main
+           # def setUp()
+           # def tearDown()

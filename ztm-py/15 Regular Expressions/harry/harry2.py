@@ -4,7 +4,8 @@ para = '''@kjbkb. 0 Groups. kjbkbkjbkb.
 RecordingsSmuleGuitar!Maginnnnnc PianoAutoRap. 
 kjbkb has kjvvhbh no recordings.'''
 
-# . any character
+# . 
+# any character
 patt = re.compile(r".")     #by using . you are saying you want any characters
 obj_store = patt.finditer(para)
 for i in obj_store:
@@ -25,7 +26,8 @@ for j in obj_store2:
 # <re.Match object; span=(137, 141), match='ding'>
 
 
-# ^ starts with
+# ^ 
+# starts with
 patt3 = re.compile(r"^@k")          #it will check if the hole para start with given string then only it will return the obj
 obj_store3 = patt3.finditer(para)
 for k in obj_store3:
@@ -40,7 +42,8 @@ for l in obj_store4:
     print(l)        #output:- <re.Match object; span=(138, 142), match='ings'>
 
 
-# * zero or more than zero
+# * 
+# zero or more than zero
 patt5 = re.compile(r"in*")      #here you are saying that you want g and if s comes after that zore or more than zero times
 obj_store5 = patt5.finditer(para)
 for m in obj_store5:
@@ -58,7 +61,8 @@ for m in obj_store5:
 # <re.Match object; span=(143, 145), match='in'>
 
 
-# + one or more than one
+# + 
+# one or more than one
 patt6 = re.compile(r"in+")
 obj_store6 = patt6.finditer(para)
 for n in obj_store6:
@@ -71,7 +75,8 @@ for n in obj_store6:
 # <re.Match object; span=(143, 145), match='in'>
 
 
-# {} exactily the specified number of occurrence
+# {} 
+# exactily the specified number of occurrence
 patt7 = re.compile(r"in{5}")
 obj_store7 = patt7.finditer(para)
 for o in obj_store7:
@@ -81,7 +86,8 @@ for o in obj_store7:
 
 
 
-# () capture and group
+# () 
+# capture and group
 patt8 = re.compile(r"(kjbkb){2}")   #it will check hole kjbkb 2 times
 obj_store8 = patt8.finditer(para)
 for p in obj_store8:
@@ -91,7 +97,8 @@ for p in obj_store8:
 
 
 
-# | either or
+# | 
+# either or
 patt9 = re.compile(r"Re|kj")    #it will give you all the strings that contain kj or that contain the Re
 obj_store9 = patt9.finditer(para)
 for q in obj_store9:
@@ -106,7 +113,8 @@ for q in obj_store9:
 
 
 
-# \A returns the match if the given char is the begining of the string
+# \A 
+# returns the match if the given char is the begining of the string
 patt10 = re.compile(r"\A@kj")
 obj_store10 = patt10.finditer(para)
 for r in obj_store10:
@@ -116,7 +124,8 @@ for r in obj_store10:
 
 
 
-# \b returns the match if the given string is at the begining of the any words in the paragraph 
+# \b 
+# returns the match if the given string is at the begining of the any words in the paragraph 
 print("****")
 patt11 = re.compile(r"\bkj")
 obj_store11 = patt11.finditer(para)
