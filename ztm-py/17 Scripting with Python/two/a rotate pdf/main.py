@@ -15,5 +15,13 @@ read_pdf = PyPDF2.PdfFileReader(pdf2)
 print(read_pdf.getPage(0))      # it will read the first page of the pdf # but insure that your mode is rb
 # it will give you the hole data in the form of distionary
 
-print(read_pdf.rotateClockwise(90)) #it will rotate the page clock wise
-print(read_pdf.rotateCounterClockwise(90))  # it will rotate the page counter clock wise
+page1 = read_pdf.getPage(0)
+print(page1.rotateClockwise(90)) #it will rotate the page clock wise
+print(page1.rotateCounterClockwise(90))  # it will rotate the page counter clock wise
+
+# to save the changed pdf file
+page1.rotateClockwise(90)
+writer_file = PyPDF2.PdfFileWriter()
+writer_file.addPage(page1)
+with open("new.pdf", "wb") as new_file:
+    writer_file.write(new_file)     #here write will create the new pdf by the name of new.pdf
