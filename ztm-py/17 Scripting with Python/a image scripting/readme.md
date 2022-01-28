@@ -10,3 +10,10 @@
 
 # Warning : 
 * Pillow and PIL cannot co-exist in the same environment. Before installing Pillow, please uninstall PIL.
+
+
+
+
+* you can go to 
+* https://www.tutorialspoint.com/image-processing-in-python 
+* for knowing more about Scripting with Python
