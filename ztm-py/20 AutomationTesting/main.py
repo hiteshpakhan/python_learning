@@ -29,6 +29,8 @@ button_element = chrome_browser.find_element_by_id("speak_button")
 print(button_element, "############################")   #it will grab the button
 # to select the element by classname
 # chrome_browser.find_element_by_class_name("classname")
+# imp : you can also select the elements by the css way as follows 
+# chrome_browser.find_element_by_css_selector(".classname #idname >inside ,and space")  #this way you can put the css style elements
 
 print(button_element.get_attribute("innerHTML"), "* well our button dont have any innerHTMl *")
 
@@ -48,5 +50,15 @@ close = input("if you want to close the opened browser type \"y\" and enter : ")
 
 if close == "y":
     chrome_browser.close()  #it will close the browser that we open
+    # there are some times when it gives the problem to close the browser that time you have to call this twice
 else:
     print("you have not type the \"y\" letter so you have to close the browser when you done your task")
+
+
+
+# chrome_browser.quit()
+# quite help you to close entire driver
+
+
+# sometimes you have to wait for some process you can do that wioth the wait in selenium 
+# you can read more about it by going to the selenium site
