@@ -4,6 +4,7 @@
 
 from selenium import webdriver
 
+
 chrome_browser = webdriver.Chrome(".\chromedriver")
 
 # print(chrome_browser) # it will open the chrome browser
@@ -36,8 +37,16 @@ assert "speak_button" in chrome_browser.page_source     #it will check hole page
 text_area = chrome_browser.find_element_by_id("text_box")
 # now we have to check the textarea is empty
 text_area.clear()   #it wiull clear the textarea
-text_area.send_keys("hee there how are you doing, hope you are doing fine")
 
+given_text = input("type the text that you want to convert into the audio : ")
 
+text_area.send_keys(given_text)
 
-# chrome_browser.close()  #it will close the browser that we open
+button_element.click()
+
+close = input("if you want to close the opened browser type \"y\" and enter : ")
+
+if close == "y":
+    chrome_browser.close()  #it will close the browser that we open
+else:
+    print("you have not type the \"y\" letter so you have to close the browser when you done your task")
