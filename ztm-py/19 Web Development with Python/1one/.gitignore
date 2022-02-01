@@ -1,7 +1,7 @@
-\include\
+/include
 
-\Lib\
+/Lib
 
-\Scripts\
+/Scripts
 
-\pyvenv.cfg
+pyvenv.cfg
