@@ -11,7 +11,7 @@ email.set_content("learning python good luck")
 with smtplib.SMTP(host="smtp.gmail.com", port=587) as smtp:
     smtp.ehlo()
     smtp.starttls()
-    smtp.login("abcdfga566@gmail.com", "Luci@714")
+    smtp.login("tiydevil123@gmail.com", "Luci@714")
     smtp.send_message(email)
     print("all good")
 
