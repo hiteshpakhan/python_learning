@@ -11,5 +11,9 @@ def about():
 
 @app.route('/blog') 
 def hello_world2():
-    return 'Hello, this is my blog'     #this is the simple sentence
+    return 'Hello, this is my blog hope you enjoy it'     #this is the simple sentence
 
+
+# @app.route('/favicon.ico') 
+# def hello_world2():
+#     return 'Hello, this is my blog hope you enjoy it' 

@@ -37,3 +37,7 @@ now if you want to see your changes emiditely on the app you can on the debug mo
 
         set FLASK_ENV=development
 
+to add the favicon image into the page you can use the following link into your index.html
+        
+        <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+
