@@ -30,6 +30,7 @@
 
         kaggle :
         its community and it also has data sets
+        it helps by provioding the big amount of data that we can work on
 
 
 
