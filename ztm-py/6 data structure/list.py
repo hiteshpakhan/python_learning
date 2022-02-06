@@ -6,6 +6,7 @@
 # .remove()
 # .clear()
 # .index()
+# .count() 
 # in
 # .sort()
 # sorted()
@@ -105,7 +106,7 @@ print(list(range(100)))
 # .join()
 sentence = " "
 new_sentence = sentence.join(["hi","my","name","is","hitesh"])
-print(new_sentence)
+print(new_sentence)     #output:- hi my name is hitesh
 
 
 # list unpaking
