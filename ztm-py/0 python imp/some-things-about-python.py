@@ -1,5 +1,5 @@
 # 1# expression vs sentence
-# 3# formatted string
+# 3# formatted string       (f"")
 # 4# variable name
 # 5# .format()
 # 6# input()
