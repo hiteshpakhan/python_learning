@@ -13,19 +13,20 @@
 # set {}
 # set is an unordered collection of an unique elements
 # set does not support item indexing
+# set does not contain the repeation of data 
 
 my_set = {1,1,2,3,4,4,5,6,6,7,7,8,8}
 print(my_set)   #it will give the output {1, 2, 3, 4, 5, 6, 7, 8} it will automatically remove all the duplecate elements
 
 set_two = {1,2,3,4,5}
 set_two.add(100)
-print(set_two)
+print(set_two)  #output:- {1, 2, 3, 4, 5, 100}
 
 # print(set_two[2]) it will give an error because set does not support indexing
 # if you want to check something in the set you can use in
 print(1 in set_two)
 
-print(len(set_two))
+print(len(set_two)) #output:- 6
 
 # here if we have to convert the normal list into a list that has no duplicate values
 list1 = [1,1,2,3,3,4,5,5]
