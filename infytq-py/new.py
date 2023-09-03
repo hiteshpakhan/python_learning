@@ -5,3 +5,4 @@ system software which provides the platform for other software
 device drivers : 
 
 # you can type note
+#  you have to start the dsa as soon as possible
